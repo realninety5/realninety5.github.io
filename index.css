@@ -1,0 +1,49 @@
+body {
+    background: #000000;
+}
+
+
+td {
+    border: 1px solid black;
+}
+
+.box {
+    width: 100%;
+    height: 110px;
+    line-height: 90px;
+    background: white;
+    font-family: monospace;
+    font-size: 60px;
+    text-align-last: right;
+}
+
+
+.buttons {
+    width: 100%;
+}
+
+.container {
+    margin-top: 20%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+table {
+    width: 100%;
+    height: 70%;
+    background: #6A5ACD;
+    border-radius; 20px;
+    border-collapse: collapse;
+
+}
+
+.b {
+    padding-left: 10%;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.c, .del {
+    padding-left: 22%;
+}
