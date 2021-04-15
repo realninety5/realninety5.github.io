@@ -1,14 +1,49 @@
 <DOCTYPE html>
-<html lang="en">
+<html lang='en'>
     <head>
-        <meta charset="utf-8">
-        <title>Click through</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link href="./index.css" type="text/css" rel="stylesheet" />
+        <title>Simple Calculator</title>
     </head>
     <body>
-        <ul>
-            <li><a href="./calculator">Simple Calculator</a></li>
-            <li><a href="./bfree">A Landing page</a></li>
-        </ul>
+        <div class="container">
+            <div class='display'>
+                <input type='text' readonly  class="box" />
+            </div>
+            <div class="buttons">
+                <table>
+                    <tr class="td1">
+                        <td class="c b" colspan="2">C</td>
+                        <td class="del b" colspan="2">&#8592;</td>
+                    </tr>
+                    <tr class="td1">
+                        <td class="one b">1</td>
+                        <td class="two b">2</td>
+                        <td class="three b">3</td>
+                        <td class="plus b">+</td>
+                    </tr>
+                    <tr class="td1">
+                        <td class="four b">4</td>
+                        <td class="five b">5</td>
+                        <td class="six b">6</td>
+                        <td class="minus b">-</td>
+                    </tr>
+                    <tr class="td1">
+                        <td class="seven b">7</td>
+                        <td class="eight b">8</td>
+                        <td class="nine b">9</td>
+                        <td class="times b">x</td>
+                    </tr>
+                    <tr class="td1">
+                        <td class="zero b">0</td>
+                        <td class="dot b">.</td>
+                        <td class="equal b">=</td>
+                        <td class="divide b">/</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="./index.js"></script>
     </body>
 </html>
-    
